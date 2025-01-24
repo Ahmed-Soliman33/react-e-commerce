@@ -22,7 +22,7 @@ export default function LoginSignup() {
       localStorage.setItem('password', passwordRef.current.value)
         setTimeout(() => {
           navigate('/login');
-          // window.location.reload() // Replace with your desired route
+          // window.location.reload() 
         }, 1000);
       toast.success('Account has been created', {
         position: "top-right",
